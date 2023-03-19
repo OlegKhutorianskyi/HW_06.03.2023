@@ -1,0 +1,83 @@
+.titleContainer{
+    font-weight: 400;
+    font-size: 42px;
+    color: #1B3764;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.titleBorderBottom{
+    width: 50px;
+    height: 3px;
+    border-bottom: 3px solid #FFCA42;
+}
+
+.booksList{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 10px;
+}
+
+.bookImg{
+    background: url('./bookImgFirst.png');
+    width: 300px;
+    height: 400px;
+}
+.bookImgSecond{
+    background: url('./bookImgSecond.png');
+    width: 300px;
+    height: 400px;
+}
+.bookItem{
+    display: flex;
+}
+
+.bookParams{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.bookTitle{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 32px;
+    color: #1B3764;
+}
+
+.bookPrice{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 21px;
+    color: #FFCA42;
+}
+
+.bookDescr{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 19px;
+    color: #969AA0;
+}
+
+.printedBookBtn{
+    background-color: transparent;
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 24px;
+    color: #1B3764;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.circleBookBtn{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFCA42;
+    margin-right: 10px;
+}

@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1B3764;
+    color: #fff;
+}
+.socialBlock{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: #FFCA42;
+}
+
+.socialLinks{
+    margin-left: 20px;
+}
+.socialLinks button{
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.socialLinks button:hover{
+    transition: .5s;
+    background-color: #FFCA42;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color: #F6F8FC;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'inter';
+}
+.nav a:hover{
+    transition: .5s;
+    color: #FFCA42;   
+}
+
+.nav .active{
+    transition: .5s;
+    color: #FFCA42;
+}
+
+.headerBtn{
+    width: 200px;
+    height: 60px;
+    margin-right: 70px;
+    background-color: #FFCA42;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: 'cardo';
+}
+.headerBtn:hover{
+    transition: .5s;
+    background-color: #fff;
+}

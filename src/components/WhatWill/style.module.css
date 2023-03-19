@@ -1,0 +1,82 @@
+.container{
+    padding: 90px 70px 120px 70px;
+}
+
+.titleContainer{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 42px;
+    color: #1B3764;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.titleBorderBottom{
+    width: 50px;
+    height: 3px;
+    border-bottom: 3px solid #FFCA42;
+    margin-bottom: 70px;
+}
+
+.cousesContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.couses{
+    padding: 30px 30px 50px 0;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 1fr ));
+    grid-auto-rows: 250px;
+    gap: 30px 30px;
+}
+
+.cousesItem{
+    padding: 30px;
+    /* padding: 30px 45px 60px 30px; */
+    background-color: #F4F8FF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+
+}
+
+.cousesNumber{
+    padding: 10px;
+    background-color: #FFCA42;
+    color: #1B3764;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+.cousesDescr{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 24px;
+    color: #1B3764;
+
+}
+
+.cousesImgBorder{
+    width: 40%;
+    border: 6px solid  #FFCA42;
+}
+
+.cousesImg{
+    background: url('./cousesImg.png');
+    width: 500px;
+    height: 600px;
+    object-fit: contain;
+    position: absolute;
+    right: 100px;
+    top: 467px;
+}

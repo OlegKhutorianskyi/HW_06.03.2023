@@ -1,0 +1,112 @@
+.home{
+    padding: 100px 70px;
+    display: flex;
+    align-items: center;
+    background-color: #1B3764;
+    color: #fff;
+}
+
+
+.textContentBlock{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imgContentBlock{
+    width: 50%;
+    background: url('./homeBanner.png');
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.greetingsText{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    font-family: 'cardo';
+    text-align: left;
+    margin-left: 63px;
+    color: #F6F8FC;
+}
+
+.greetingsText::before{
+    content: '____';
+    display: inline-block;
+    color: #FFCA42;
+    height: 2px;
+    width: 35px;
+}
+
+
+.title{
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'cardo';
+    text-align: left;
+    margin-left: 63px;
+    margin-top: 0;
+}
+
+
+.subTitle{
+    margin-left: 63px;
+    color: #B4C7E7;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'inter';
+}
+
+.contentBtnBlock{
+    display: flex;
+    margin-left: 63px;
+    margin-top: 10px;
+}
+
+.contentBtn{
+    width: 200px;
+    height: 60px;
+    background-color: #FFCA42;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.contentBtn:hover{
+    transition: .5s;
+    background-color: #fff;
+}
+
+.linkToReading{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'cardo';
+    color: #F6F8FC;
+    border-bottom: 1px solid #F6F8FC;
+}
+
+.setBookList{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    list-style-image: url('./listStyleHome.png')
+}
+
+.setBookListTitle{
+    margin: 0;
+    color: #F6F8FC;
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 24px;
+}
+.setBookList{
+    color: #B4C7E7;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 17px;
+}

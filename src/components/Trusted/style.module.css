@@ -1,0 +1,81 @@
+.container{
+    padding: 55px 70px 130px 70px;
+}
+
+
+.titleContainer{
+    font-weight: 400;
+    font-size: 42px;
+    color: #1B3764;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.titleBorderBottom{
+    width: 50px;
+    height: 3px;
+    border-bottom: 3px solid #FFCA42;
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefitsItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.itemImg_1{
+    background: url('./trustedImg_1.png');
+    width: 200px;
+    padding: 0 auto;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.itemImg_2{
+    background: url('./trustedImg_2.png');
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.itemImg_3{
+    background: url('./trustedImg_3.png');
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.itemImg_4{
+    background: url('./trustedImg_4.png');
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.itemTitle{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #1B3764;
+    margin-bottom: 20px;
+}
+
+.itemDescr{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: #969AA0;
+}

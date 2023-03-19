@@ -1,0 +1,69 @@
+.container{
+    padding: 126px 70px 160px 70px;
+    background-color: #F4F8FF;
+}
+
+.titleContainer{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 42px;
+    color: #1B3764;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.titleBorderBottom{
+    width: 50px;
+    height: 3px;
+    border-bottom: 3px solid #FFCA42;
+    margin-bottom: 70px;
+}
+
+.rasuorces{
+    display: flex;
+    gap: 20px;
+}
+
+.rasuorceItem{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+.rasuorceImg{
+    background: url('./resourceImg.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    object-fit: contain;
+    width: 400px;
+    height: 250px;
+}
+
+.rasuorceTitle{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    color: #1B3764;
+}
+
+.rasuorceDescr{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 19px;
+    color: #969AA0;
+    text-align: left;
+}
+
+.rasuorceDate{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B3764;
+    text-align: right;
+}

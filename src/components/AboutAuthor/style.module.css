@@ -1,0 +1,138 @@
+.container{
+    background-color: #F5F8FC;
+    padding: 140px 70px;
+    display: flex;
+    gap: 150px;
+}
+
+.imgAuthor{
+    background: url('./authorPhoto.png');
+    background-repeat: no-repeat;
+    padding: 0;
+    box-shadow: rgb(251, 253, 255) 90px 60px 0px -3px, rgb(240, 178, 62) 100px 50px;
+    width: 50%;
+    height: 600px;
+    object-fit: contain;
+}
+
+.aboutAuthorContent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.titleContainer{
+    font-weight: 400;
+    font-size: 42px;
+    color: #1B3764;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 50px;
+    color: #1B3764;
+
+}
+
+.titleBorderBottom{
+    width: 50px;
+    height: 3px;
+    border-bottom: 3px solid #FFCA42;
+}
+
+.authorDescr{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 19px;
+    color: #969AA0;
+    text-align: left;
+}
+
+.authorParams{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.booksSum{
+    border-right: 1px solid #FFCA42;
+    padding: 1px 30px 1px 12px;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 10px;
+    color: #969AA0;
+}
+.userRate{
+    border-right: 1px solid #FFCA42;
+    padding: 1px 30px 1px 12px;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 10px;
+    color: #969AA0;
+}
+.bestSellerRate{
+    padding: 1px 30px 1px 12px;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 10px;
+    color: #969AA0;
+}
+
+.authorParams h2{
+    margin: 0;
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 50px;
+    color: #1B3764;
+}
+
+.authorContacts{
+    width: 500px;
+    height: 150px;
+    background-color: #1B3764;
+    padding: 15px 20px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.qr{
+    background: url('./qr.png');
+    width: 130px;
+    height: 130px;
+}
+
+.contactText{
+    text-align: left;
+    padding: 18px 0 4px 40px;
+    
+}
+
+.authorName{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFCA42;
+}
+
+.email{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 18px;
+    color: #B4C7E7;
+}
+
+.phoneNumber{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 18px;
+    color: #B4C7E7;
+}

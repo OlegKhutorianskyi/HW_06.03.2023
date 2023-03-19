@@ -1,0 +1,108 @@
+.footer{
+    display: flex;
+    background-color: #1B3764;
+    padding-top: 300px;
+    padding: 70px;
+}
+.logoBlock{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: #FFCA42;
+}
+
+.logoText{
+    margin-left: 5px;
+    color: #fff;
+}
+
+.socialLinks{
+    display: flex;
+    gap: 10px;
+}
+
+.socialLinks button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #FFCA42;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}   
+
+.socialLinks button:hover{
+    transition: .5s;
+    padding: 22px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.footerNavBlock{
+    width: 100%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: #fff;
+}
+
+.footerNacBlockTitle{
+    font-size: 24px;
+    font-family: 'cardo';
+    font-weight: 400;
+}
+.exploreList{
+    list-style: none;
+    text-align: left;
+}
+
+.exploreList li{
+    line-height: 30px;
+    color: #B4C7E7;
+}
+.exploreList li::before{
+    content: '...';
+    color:#FFCA42;
+    text-align: center;
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.footerNacBlockTitle{
+    list-style: none;
+}
+
+.footerNacBlockTitle li{
+    line-height: 30px;
+    color: #B4C7E7;
+}
+
+.footerNacBlockTitle li::before{
+    content: '...';
+    color:#FFCA42;
+    text-align: center;
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.footerContacts{
+    text-align: left;
+}
+.footerContacts span{
+    font-family: 'cardo';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footerContacts p{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 17px;
+    color: #B4C7E7;
+    margin-left: 15px;
+}
